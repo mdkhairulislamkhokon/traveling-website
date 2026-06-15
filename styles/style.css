@@ -1,0 +1,837 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+/* google font */
+
+.space-grotesk-font {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* shard styles */
+img {
+    max-width: 100%;
+}
+
+.text-gray {
+    color: #424247;
+}
+
+.text-yellow {
+    color: #FF5400;
+}
+
+.text-black {
+    color: #131318;
+}
+
+.text-black70 {
+    color: rgba(19, 19, 24, 0.7);
+}
+
+.section-heading {
+    max-width: 650px;
+    margin: 0 auto;
+    line-height: 26px;
+    margin-top: 100px;
+    margin-bottom: 48px;
+}
+
+.section-heading>h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.section-heading>p {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.btn-primary {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 14px 34px 13px 35px;
+    background-color: #FF5400;
+}
+
+/* nav related styles */
+.navbar {
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+
+.logo>img {
+    width: 50px;
+    height: 50px;
+}
+
+.hero-title {
+    font-size: 2.25rem;
+    font-weight: 900;
+    color: #131318;
+}
+
+.hero-title>span {
+    font-size: 2.25rem;
+    font-weight: 900;
+    color: #FF5400;
+}
+
+.manu {
+    display: flex;
+    gap: 44px;
+}
+
+.nav-link {
+    list-style: none;
+}
+
+#links-home {
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.links {
+    font-size: 1.125rem;
+    text-decoration: none;
+}
+
+.font-awesome-manue {
+    display: none;
+}
+
+/* banner related styles */
+
+.banner {
+    max-width: 1200px;
+    min-height: 500px;
+    margin: 0 auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.500), rgba(98, 98, 112, 0.171)), url(../imgs/Group\ 13\ \(1\)\ \(1\).png);
+    background-size: cover;
+    border-radius: 14px;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+
+.banner-description {
+    color: #f1ebeb;
+    line-height: 24px;
+    margin-bottom: 48px;
+}
+
+form {
+    display: flex;
+    gap: 24px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.322);
+}
+
+form>input {
+    padding: 16px 20px 16px 16px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.select {
+    padding: 16px 20px 16px 16px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 8px;
+    color: gray;
+    font-size: 1rem;
+}
+
+.btn-now {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 14px 34px 14px 35px;
+    background-color: #FF5400;
+
+}
+
+/* toure related styles */
+.tours-container {
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 20px;
+    display: flex;
+    gap: 50px;
+    line-height: 26px;
+}
+
+.toure-left {
+    max-width: 770px;
+}
+
+.tour-title {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+
+.tour-description {
+    margin-bottom: 24px;
+}
+
+li {
+    margin-bottom: 16px;
+}
+
+.torue-footer {
+    margin-top: 24px;
+    margin-bottom: 35px;
+}
+
+/* destination related styles */
+
+.container-destination {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.destination {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 24px;
+    padding: 10px;
+}
+
+.destination div:nth-child(1),
+.destination div:nth-child(2) {
+    grid-column: span 6;
+}
+
+.destination div:nth-child(3) {
+    grid-column: span 4;
+}
+
+.destination div:nth-child(4) {
+    grid-column: span 5;
+}
+
+
+.destination div:nth-child(5) {
+    grid-column: span 3;
+}
+
+.destination div:nth-child(6) {
+    grid-column: span 5;
+}
+
+.destination div:nth-child(7) {
+    grid-column: span 7;
+}
+
+.destination div {
+    position: relative;
+}
+
+.destination strong {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    color: #ffffff;
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.destination img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Choose Us related styles */
+
+.Choose-Us {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.choose-us-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Choose-Us .hotels {
+    max-width: 575px;
+    text-align: left;
+    border-radius: 16px;
+    padding: 32px 55px 32px 32px;
+    background-color: #FBB56305;
+    border: 1px solid #FBB56320;
+}
+
+.Choose-Us .service {
+    max-width: 575px;
+    text-align: left;
+    border-radius: 16px;
+    padding: 32px 55px 32px 32px;
+    background-color: #29CEF605;
+    border: 1px solid #29CEF620;
+}
+
+.Choose-Us .guarantee {
+    max-width: 575px;
+    text-align: left;
+    border-radius: 16px;
+    padding: 32px 55px 32px 32px;
+    background-color: #E9444405;
+    border: 1px solid #E9444420;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #131318;
+    margin-top: 24px;
+}
+
+.description {
+    font-size: 1rem;
+    color: #5A5A5D;
+    line-height: 26px;
+    margin-top: 18px;
+}
+
+/* sales & discounts section related styles */
+
+.sales-discounts-section {
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+.sales-discounts-section .card-container {
+    padding: 65px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.048), rgba(0, 0, 0, 0.13)), url(../imgs/deal-1.png);
+
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.sales-discounts-section .card-container:nth-child(even) {
+    justify-content: end;
+}
+
+.sales-discounts-section .card-container:nth-child(odd) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.048), rgba(0, 0, 0, 0.13)), url(../imgs/deal-2.png);
+}
+
+.card-container .card {
+    padding: 50px;
+    border-radius: 15px;
+    max-width: 520px;
+    background-color: #FFFFFF80;
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+.card-manue .card-spn {
+    font-size: 1rem;
+    color: #5A5A5D;
+    margin-right: 24px;
+}
+
+.font-awesome {
+    color: #FF5400;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #131318;
+}
+
+.card-description {
+    font-size: 1rem;
+    color: #5A5A5D;
+    line-height: 26px;
+}
+
+.card-price {
+    font-size: 1.1rem;
+    color: #FF5400;
+    font-weight: 700;
+}
+
+.card-container .card .btn {
+    width: fit-content;
+}
+
+.btn-see {
+    margin: 48px auto;
+    display: flex;
+    place-items: center;
+    justify-self: center;
+}
+
+/* Perfect section related styles */
+
+.Perfect-section {
+    max-width: 1200px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+}
+
+.Perfect-left {
+    max-width: 586px;
+    padding: 15px;
+}
+
+.Perfect-left>h2 {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.Perfect-left>p {
+    color: #5A5A5D;
+    line-height: 26px;
+    margin-bottom: 26px;
+}
+
+.Perfect-left>li {
+    color: #131318;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 18px;
+}
+
+.Perfect-right {
+    width: 100%;
+    height: stretch;
+}
+
+/* newsletter related styles */
+.newsletter {
+    max-width: 1200px;
+    margin: 100px auto;
+    display: flex;
+    gap: 24px;
+
+}
+
+.newsletter-left {
+    border: 1px solid #FF5400;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.newsletter-left>h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #131318;
+    padding-top: 40px;
+    margin-bottom: 16px;
+}
+
+.newsletter-left>p {
+    font-size: 1rem;
+    color: #5A5A5D;
+    line-height: 26px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #13131810;
+}
+
+.newsletter-left input[type="text"] {
+    padding: 16px 0px 16px 20px;
+    width: 390px;
+    border: 1px solid #5A5A5D;
+    background-color: #13131805;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 8px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.newsletter-left input[type="email"] {
+    padding: 16px 0px 16px 20px;
+    width: 390px;
+    border: 1px solid #5A5A5D;
+    background-color: #13131805;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+.newsletter-left button {
+    padding: 16px 0px 16px 20px;
+    width: 390px;
+    background-color: #FF5400;
+    border: none;
+    font-size: 1rem;
+    border-radius: 8px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+
+
+.newsletter-right {
+    background-image: url(../imgs/Rectangle\ 8\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 672px;
+    height: 422px;
+    padding: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.newsletter-right .save-card {
+    width: fit-content;
+    border-radius: 16px;
+    padding: 20px 25px;
+    background-color: #FF5400;
+    transform: rotate(-19.63deg);
+    position: absolute;
+    bottom: 42px;
+    right: 8px;
+}
+
+.save-card>p {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.save-card>h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+/* footer related styles */
+
+footer {
+    background-color: #13131805;
+    width: 100%;
+    margin-top: 100px;
+    padding: 110px 0 60px 0;
+}
+
+.footer-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.footer-section .footer-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #131318;
+}
+
+.footer-title>span {
+    color: #FF5400;
+}
+
+.footer-description>p {
+    margin: 15px auto;
+    max-width: 750px;
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 26px;
+}
+
+.social-icon {
+    width: 100%;
+    padding: 32px 0 50px 0;
+    text-align: center;
+    border-bottom: 1px solid #13131810;
+}
+
+.social-icon .fa-twitter,
+.fa-facebook-f,
+.fa-square-instagram,
+.fa-github {
+    margin-right: 32px;
+    font-size: 1.5rem;
+}
+
+.footer-credit {
+    text-align: center;
+    padding: 50px;
+}
+
+
+/* responsive related styles */
+
+/* smaller device */
+
+@media screen and (max-width: 576px) {
+    .manu {
+        display: none;
+    }
+
+    .font-awesome-manue {
+        display: inline;
+    }
+
+    .navbar {
+        margin: 20px auto;
+        padding: 10px;
+    }
+
+    .banner {
+        margin: 0 auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .banner-title {
+        font-size: 3rem;
+
+    }
+
+    form {
+        margin-top: 10px;
+        flex-direction: column;
+    }
+
+    form>input {
+        padding: 15px;
+    }
+
+    .select {
+        padding: 16px;
+    }
+
+    .tours-container {
+        flex-direction: column;
+        gap: 30px;
+        padding: 22px;
+    }
+
+    .tour-title {
+        font-size: 1.7rem;
+    }
+
+    .container-destination {
+        padding: 15px;
+    }
+
+    .destination {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .section-heading h2 {
+        font-size: 1.7rem;
+        line-height: 30px;
+    }
+
+    .section-heading p {
+        line-height: 22px;
+    }
+
+    .Choose-Us {
+        padding: 8px;
+    }
+
+    .choose-us-container {
+        flex-direction: column;
+    }
+
+    .Choose-Us .hotels {
+        padding: 15px;
+    }
+
+    .Choose-Us .service {
+        padding: 15px;
+    }
+
+    .Choose-Us .guarantee {
+        padding: 15px;
+    }
+
+
+    .Perfect-section {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .newsletter-right {
+        width: 100%;
+    }
+
+    .Perfect-left>h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .newsletter {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .newsletter-left {
+        border: 1px solid #FF5400;
+        padding: 5px;
+    }
+
+    .newsletter-left>h3 {
+        font-size: 1.2rem;
+        padding-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .newsletter-left>p {
+        font-size: 1rem;
+        color: #5A5A5D;
+        line-height: 20px;
+        padding-bottom: 15px;
+    }
+
+    .newsletter-left input[type="text"] {
+        padding: 10px 0px 10px 15px;
+        width: 250px;
+    }
+
+    .newsletter-left input[type="email"] {
+        padding: 10px 0px 10px 15px;
+        width: 250px;
+    }
+
+    .newsletter-left button {
+        padding: 10px 0px 10px 15px;
+        width: 250px;
+    }
+
+    footer {
+        padding: 0 10px;
+    }
+
+
+}
+
+/* mediam device related styles */
+@media screen and (min-width:577px) and (max-width:992px) {
+    .manu {
+        display: none;
+    }
+
+    .font-awesome-manue {
+        display: inline;
+    }
+
+    .navbar {
+        margin: 20px auto;
+        padding: 10px;
+    }
+
+    .banner {
+        margin: 0 auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .banner-title {
+        font-size: 3rem;
+
+    }
+
+    form {
+        margin-top: 10px;
+        flex-direction: column;
+    }
+
+    form>input {
+        padding: 15px;
+    }
+
+    .select {
+        padding: 16px;
+    }
+
+    .tours-container {
+        flex-direction: column;
+        gap: 40px;
+        padding: 25px;
+        align-items: center;
+    }
+
+    .container-destination {
+        padding: 15px;
+    }
+
+    .destination {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        padding: 10px;
+    }
+
+
+    .Perfect-section {
+        flex-direction: column;
+        padding: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Perfect-left>h2 {
+        font-size: 2rem;
+    }
+}
