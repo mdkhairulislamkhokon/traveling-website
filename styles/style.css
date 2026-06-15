@@ -602,6 +602,17 @@ footer {
     border-bottom: 1px solid #13131810;
 }
 
+.social-icon i {
+    cursor: pointer;
+    color: #13131850;
+    transition: 0.3s;
+}
+
+.social-icon i:hover {
+    color: #131318;
+    transform: scale(1.2);
+}
+
 .social-icon .fa-twitter,
 .fa-facebook-f,
 .fa-square-instagram,
